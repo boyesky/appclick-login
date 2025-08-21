@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  /* background-image: url(./assets/appclick.jpg); */
+}
+.whole {
+  background: white;
+  height: 100vh;
+  width: 423px;
+
+  flex: 1;
+}
+.logo {
+  height: 90px;
+  margin-top: 110px;
+}
+.logo-box {
+  /* margin-top: 100px; */
+  margin-left: 90px;
+}
+.login-box {
+  margin: 40px 35px 0 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.login-box p {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+.second-sect {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+/* .lower-lay {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+} */
+
+/* .input-lay {
+  display: flex;
+  align-items: center;
+/*} */
+
+input {
+  height: 50px;
+  width: 350px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 1px 1px rgb(212, 212, 212);
+  background: white;
+  padding-left: 20px;
+  font-size: large;
+  outline: green;
+}
+.second-sect span {
+  position: absolute;
+  left: 302px;
+  padding: 4px 3px;
+  background-color: white;
+  color: #919191;
+}
+
+button {
+  height: 50px;
+  width: 335px;
+  font-size: large;
+  border-radius: 5px;
+  background-color: rgb(46, 164, 46);
+  color: white;
+  border: none;
+}
+button:hover {
+  background-color: rgb(56, 52, 52);
+  cursor: pointer;
+}
+.down-box {
+  margin-top: 10px;
+  padding-left: 55px;
+}
+.down-box a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 13px;
+  color: black;
+}
+.down-box a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.pic-whole {
+  display: flex;
+}
+.pic-haf {
+  height: 100vh;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .pic-whole {
+    display: flex;
+    flex-direction: column;
+  }
+  .whole {
+    width: 90%;
+  }
+  .logo {
+    margin-top: 30px;
+    height: 70px;
+  }
+  .login-box {
+    width: 100%;
+  }
+  button {
+    width: 100%;
+  }
+  .second-sect {
+    width: 100%;
+  }
+  .second-sect span {
+    left: 480px;
+  }
+
+  input {
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 1px 1px rgb(212, 212, 212);
+    background: white;
+    padding-left: 20px;
+    font-size: large;
+  }
+
+  .pic-haf {
+    margin-top: 35px;
+  }
+  .haf-box {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+/* 
+input
+height: 50px;
+  width: 350px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 1px 1px rgb(212, 212, 212);
+  background: white;
+  padding-left: 20px;
+  font-size: large;
+  outline: green;
+  
+  
+  .second-sect {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}*/
