@@ -5,11 +5,9 @@ body {
   /* background-image: url(./assets/appclick.jpg); */
 }
 .whole {
-  background: white;
   height: 100vh;
   width: 423px;
-
-  flex: 1;
+  flex: 30%;
 }
 .logo {
   height: 90px;
@@ -20,7 +18,7 @@ body {
   margin-left: 90px;
 }
 .login-box {
-  margin: 40px 35px 0 55px;
+  margin: 40px 35px 0 35px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -31,9 +29,19 @@ body {
 }
 .second-sect {
   display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  height: 50px;
+  width: 90%;
+  /* border: 1px solid gainsboro; */
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 1px 1px rgb(212, 212, 212);
+
+  /* display: flex;
   flex-direction: row;
   align-items: center;
-  position: relative;
+  position: relative; */
 }
 /* .lower-lay {
   display: flex;
@@ -46,24 +54,27 @@ body {
   align-items: center;
 /*} */
 
-input {
-  height: 50px;
+.second-sect input {
+  outline: none;
+  border: none;
+  width: 100%;
+  font-size: large;
+  /* height: 50px;
   width: 350px;
   border-radius: 5px;
-  border: 1px solid #ccc;
-  box-shadow: 0 1px 1px 1px rgb(212, 212, 212);
+  
   background: white;
   padding-left: 20px;
-  font-size: large;
-  outline: green;
+  
+  outline: green; */
 }
-.second-sect span {
+/* .second-sect span {
   position: absolute;
   left: 302px;
   padding: 4px 3px;
   background-color: white;
   color: #919191;
-}
+} */
 
 button {
   height: 50px;
@@ -99,6 +110,9 @@ button:hover {
   height: 100vh;
   width: 100%;
 }
+.haf-box {
+  flex: 70%;
+}
 
 @media (max-width: 600px) {
   .pic-whole {
@@ -106,34 +120,18 @@ button:hover {
     flex-direction: column;
   }
   .whole {
-    width: 90%;
+    width: 570px;
+    margin: 20px 0px;
   }
   .logo {
     margin-top: 30px;
     height: 70px;
   }
   .login-box {
-    width: 100%;
+    width: 580px;
   }
   button {
-    width: 100%;
-  }
-  .second-sect {
-    width: 100%;
-  }
-  .second-sect span {
-    left: 480px;
-  }
-
-  input {
-    width: 100%;
-    border-radius: 5px;
-    margin: 10px;
-    border: 1px solid #ccc;
-    box-shadow: 0 1px 1px 1px rgb(212, 212, 212);
-    background: white;
-    padding-left: 20px;
-    font-size: large;
+    width: 90%;
   }
 
   .pic-haf {
@@ -141,7 +139,6 @@ button:hover {
   }
   .haf-box {
     width: 100%;
-    margin-right: 0;
   }
 }
 
